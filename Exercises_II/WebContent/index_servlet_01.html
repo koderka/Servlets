@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="Servlet_01" method="post">
+		<label>
+		Wpisz kwotę
+		<br>
+		<input type="number" name="currency">
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="EUR_USD" checked> EUR to USD
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="USD_EUR"> USD to EUR
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="EUR_PLN"> EUR to PLN
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="PLN_EUR"> PLN to EUR
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="USD_PLN"> USD to PLN
+		</label>
+		<br>
+		<label>
+		<input type="radio" name ="exchange" value="PLN_USD"> PLN to USD
+		</label>
+		<br>
+		<input type="submit" value="Oblicz">
+	</form>
+</body>
+</html>
